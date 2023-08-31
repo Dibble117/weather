@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { StyleSheet, Text, Image } from "react-native";
 
 const API_URL = "https://api.openweathermap.org/data/2.5/weather?";
-const API_KEY = "a01c3a3ceac8e9ae65a0f70205d467d3";
+const API_KEY = "API_KEY_HERE";
 const ICON_URL = "http://openweathermap.org/img/wn/";
 
 export default function Weather({ latitude, longitude }) {
